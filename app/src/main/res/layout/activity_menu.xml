@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/tokk"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang Di Rumah Makan Malaya"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/textNasiLemak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-Nasi Lemak"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="#000" />
+
+    <!-- Roti Canai -->
+    <TextView
+        android:id="@+id/textRotiCanai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-Roti Canai"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="#000" />
+
+
+    <TextView
+        android:id="@+id/textABCDurian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-ABC Durian"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textColor="#000" />
+
+
+    <Button
+        android:id="@+id/btnBuatPesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buat Pesanan"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
